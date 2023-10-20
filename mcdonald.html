@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mc.css">
+    <link rel="shortcut icon" href="imagem/loog.png" type="image/x-icon">
+    <title>McDonald's</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar">
+                <h1><img src="imagem/imagem1.png" alt="" class="logo"></h1>
+                <div class="hero">
+                    <div id="searchbox">
+                        <i class="fas fa-search search-input__field-icon"></i>
+                        <input data-test-id="search-input-field" tabindex="0" role="search" type="text" name="q" autocomplete="off" aria-label="Busque por item ou loja" class="search-input__field" placeholder="Busque por item ou loja" value="">
+                    </div>
+                </div>
+                <ul>
+                <li>
+                <a href="inicio.html">Início</a>
+                <a href="#">Restaurantes</a>
+                <a href="#">Mercado</a>
+                <a href="#">Bebida</a>
+                <a href="#">Farmácia</a>
+                <a href="#">Pet</a>
+            </li>
+        </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="mcdonald/mc1.webp" alt="Logo">
+
+<section class="home" id="home">
+    <div class="home-text">
+        <span>Bem-Vindo</span>
+        <h1>McDonald's</h1>
+        <h2>Pedido minimo R$15</h2>
+    </div>
+</section>
+
+<div class="titulo">
+    <span>Experimente os McSanduíches</span>
+    <h3>McLanches</h3>
+</div>
+
+
+<div class="container-shop">
+    <header>
+        <h1>Burguers, Fritas<br>e Bebidas</h1>
+        <div class="shopping">
+            <img src="https://raw.githubusercontent.com/HoanghoDev/addtocardv2/f62a36270f9be5b1950c1abfea07be119e102a7a/image/shopping.svg">
+            <span class="quantity">0</span>
+        </div>
+    </header>
+    <div class="list">
+
+    </div>
+</div>
+
+<div class="card">
+    <h1>Pedidos</h1>
+    <ul class="listcard"></ul>
+    <div class="checkout">
+        <div class="total" onclick="confirmarPedido()">Total: R$ 0,00</div>
+      <div class="closeshopping">Fechar</div>
+    </div>
+  </div>
+
+    <script src="mc.js"></script>
+</body>
+</html>
